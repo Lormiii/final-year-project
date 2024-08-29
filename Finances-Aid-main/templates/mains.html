@@ -1,0 +1,131 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+ 
+
+    <div class="container">
+      {% with messages = get_flashed_messages() %}
+{% if messages %}
+    {% for message in messages %}
+    <div class="alert alert-success mb-3" role="alert">
+        {{ message }} 
+        
+    </div>
+    
+    {% endfor %}
+{% endif %}
+{% endwith %}
+
+
+    
+  <div class="row" style="margin-top:50px;">
+    <div class="col-md-4 col-12" style=" border-radius:20px;">
+      <a style="text-decoration: none;" href="/level100">
+      <div class="card space" style="margin-bottom: 5vh; padding: 0;  border-radius:10px;">
+          <img src="static/img/1.png" loading="lazy" style="width: 100%; height: 100%;  margin:auto; " alt="">
+          <div style="background-color:#772620; border-radius:0 0 0px 0px; padding: 10px; ">  
+            <h6 style="color: white; font-size:20px;" >Level 100</h6>
+            <!--<div style="display: flex; justify-content: space-between;">
+              <h6 style="font-size: small; color:#fff;"> GHc</h6>
+              <i class="fas fa-shopping-cart" style="color:#fff;"></i>
+            </div>-->
+          </div>
+      </div>
+      </a>
+    </div>
+
+   
+    <div class="col-md-4 col-12" style=" border-radius:20px;">
+      <a style="text-decoration: none;" href="/level200">
+      <div class="card space" style="margin-bottom: 5vh; padding: 0;  border-radius:10px;">
+        <img src="static/img/2.png" loading="lazy" style="width: 100%; height: 100%;  margin:auto; " alt="">
+         
+          <div style="background-color:#772620; border-radius:0; padding: 10px; ">  
+            <h6 style="color: white; font-size:20px;" >Level 200</h6>
+            <!--<div style="display: flex; justify-content: space-between;">
+              <h6 style="font-size: small; color:#fff;"> GHc</h6>
+              <i class="fas fa-shopping-cart" style="color:#fff;"></i>
+            </div>-->
+          </div>
+      </div>
+      </a>
+    </div>
+
+    <div class="col-md-4 col-12" style=" border-radius:20px;">
+      <a style="text-decoration: none;" href="/level300">
+      <div class="card space" style="margin-bottom: 5vh; padding: 0;  border-radius:10px;">
+        <img src="static/img/3.png" loading="lazy" style="width: 100%; height: 100%;  margin:auto; " alt="">
+        
+          <div style="background-color:#772620; border-radius:0; padding: 10px; ">  
+            <h6 style="color: white; font-size:20px;" >Level 300</h6>
+            <!--<div style="display: flex; justify-content: space-between;">
+              <h6 style="font-size: small; color:#fff;"> GHc</h6>
+              <i class="fas fa-shopping-cart" style="color:#fff;"></i>
+            </div>-->
+          </div>
+      </div>
+      </a>
+    </div>
+
+    
+    <div class="col-md-4 col-12" style=" border-radius:20px;">
+      <a style="text-decoration: none;" href="/level400">
+      <div class="card space" style="margin-bottom: 5vh; padding: 0;  border-radius:10px;">
+        <img src="static/img/4.png" loading="lazy" style="width: 100%; height: 100%;  margin:auto; " alt="">
+       
+         
+          <div style="background-color:#772620; border-radius:0; padding: 10px; ">  
+            <h6 style="color: white; font-size:20px;" >Level 400</h6>
+            <!--<div style="display: flex; justify-content: space-between;">
+              <h6 style="font-size: small; color:#fff;"> GHc</h6>
+              <i class="fas fa-shopping-cart" style="color:#fff;"></i>
+            </div>-->
+          </div>
+      </div>
+      </a>
+    </div>
+
+
+    <div class="col-md-4 col-12" style=" border-radius:20px;">
+      <a style="text-decoration: none;" href="/level500">
+      <div class="card space" style="margin-bottom: 5vh; padding: 0;  border-radius:10px;">
+        <img src="static/img/5.png" loading="lazy" style="width: 100%; height: 100%;  margin:auto; " alt="">
+       
+           
+          <div style="background-color:#772620; border-radius:0; padding: 10px; ">  
+            <h6 style="color: white; font-size:20px;" >Level 500</h6>
+            <!--<div style="display: flex; justify-content: space-between;">
+              <h6 style="font-size: small; color:#fff;"> GHc</h6>
+              <i class="fas fa-shopping-cart" style="color:#fff;"></i>
+            </div>-->
+          </div>
+      </div>
+      </a>
+    </div>
+
+
+    <div class="col-md-4 col-12" style=" border-radius:20px;">
+      <a style="text-decoration: none;" href="/level600">
+      <div class="card space" style="margin-bottom: 5vh; padding: 0;  border-radius:10px;">
+        <img src="static/img/6.png" loading="lazy" style="width: 100%; height: 100%;  margin:auto; " alt="">
+        
+         
+          <div style="background-color:#772620; border-radius:0; padding: 10px; ">  
+            <h6 style="color: white; font-size:20px;" >Level 600</h6>
+            <!--<div style="display: flex; justify-content: space-between;">
+              <h6 style="font-size: small; color:#fff;"> GHc</h6>
+              <i class="fas fa-shopping-cart" style="color:#fff;"></i>
+            </div>-->
+          </div>
+      </div>
+      </a>
+    </div>
+
+    
+    </div>
+    
+  </div>
+  
+
+ 
+    {%endblock body%}
